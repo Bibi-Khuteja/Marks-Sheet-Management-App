@@ -1,1 +1,1 @@
-# Marks-Sheet-Mnagment-App
+# Marks-Sheet-Management-App
