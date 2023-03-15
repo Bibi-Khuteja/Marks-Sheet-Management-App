@@ -9,6 +9,6 @@ Sql
 HTML
 CSS
 Bootstrap
-# Mainly contains teachers module and user module
+# Mainly contains teachers Module and user Module
 Teacher Module/Admin Module used to updated the student details and marks
 User Module is used to view the results or generate report card
