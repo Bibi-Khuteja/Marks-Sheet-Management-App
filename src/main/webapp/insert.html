@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+		
+		body {  
+			background-color:lightblue; 
+			 
+				}  
+</style>
+    <title>Marks_Sheet</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="InsertMarksDetails" method="post">
+            <div style="border: 5px solid black; margin-bottom: 10px; padding: 20px; ">
+                <h2 align="center">enter student details</h2>
+                <div class="form-group row">
+                    <label for="Usn" class="col-sm-2 col-form-label">USN</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control col-md-5" name="usn" placeholder="enter usn" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputName" class="col-sm-2 col-form-label">NAME</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control col-md-5" name="name" placeholder="enter student name" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-sm-2 col-form-label">EMAIL</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control col-md-5" name="email" placeholder="enter email">
+                    </div>
+                </div>
+               <!-- <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">CLASS</label>
+                    <div  class="col-sm-10">
+                        <select class="form-control col-sm-2" name="class">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div> -->
+                <div class="form-group row">
+                    <label for="class" class="col-sm-2 col-form-label">Class</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control  col-sm-2" name="class" requried>
+                    </div>
+                </div>
+            </div>
+            <div style="border: 5px solid black; padding: 20px; margin-bottom: 10px;">
+                <h2 align="center">Enter Student Marks</h2>
+                <div class="form-group row">
+                    <label for="kannada" class="col-sm-2 col-form-label">kannada</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control  col-sm-2" name="kannada"  requried>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="eng" class="col-sm-2 col-form-label">English</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control col-sm-2" name="eng"  requried>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="maths" class="col-sm-2 col-form-label">Maths</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control col-sm-2" name="maths"  requried>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="sci" class="col-sm-2 col-form-label">Science</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control col-sm-2" name="sci"  requried>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="soc" class="col-sm-2 col-form-label">Social</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control col-sm-2" name="soc"  requried>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="submit" class="btn btn-success">
+          		<input type="reset" class="btn btn-warning">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
